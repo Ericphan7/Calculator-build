@@ -1,0 +1,36 @@
+
+#calculator{
+  width: 350px;
+  height: 425px;
+  padding: 15px;
+  margin: 5px auto;
+  background: silver;
+  box-shadow: 2px 2px 2px;
+  border-radius: 32px 32px 32px 32px;
+}
+
+#display{
+  width: 336px;
+  height: 50px;
+  padding: 5px;
+  margin: 2px auto;  
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 12px 12px 12px 12px;
+  border: 5px solid black;
+}
+
+.keyboard{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+  background: orange;
+  width: 100%;
+  padding: 20px;  
+  border-radius: 50%;
+  font-size: 20px;
+}
